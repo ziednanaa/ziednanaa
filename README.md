@@ -28,9 +28,10 @@ My mission is to bridge architecture, governance, and intelligence — transform
 ## 🧠 Technical Focus
 
 - **Microsoft Fabric:** Lakehouse, Pipelines, Notebooks, Semantic Models  
-- **Data Engineering:** Delta / Parquet, JSON, SCD2, ETL, CI/CD (Azure DevOps)  
+- **Data Engineering:** Delta, Parquet, JSON, SCD2, ETL, ELT, CI/CD (Azure DevOps), DataOps, Data Security,  data masking,
 - **AI & ML:** NLP, Knowledge Graphs, Model Deployment, spaCy, Azure ML  
-- **Data Governance:** Metadata, Quality Rules, Lineage, Fabric Data Activator  
+- **Data Governance:** Metadata, Quality Rules, Lineage, Fabric Data Activator, GDPR 
+- **DataVis / Power BI:** Advanced data modeling, DAX calculations, interactive report design, integration with Microsoft Fabric, Power BI Data Gateway** setup and management, dashboard automation, performance optimization, and business insights delivery.
 - **Automation:** PowerShell, REST API Integration, Deployment Frameworks  
 
 ---
