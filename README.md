@@ -1,4 +1,8 @@
-# 👋 Zied Nanaa  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ziednanaa/ziednanaa/main/assets/azure-fabric-header.svg" alt="Microsoft Fabric & Azure Banner" width="100%" />
+</p>
+
+# 👋 Zied Nanaa
 **Senior Cloud & Data Architect | Microsoft Fabric | Data Governance | AI Solutions**
 
 ---
