@@ -49,10 +49,17 @@ My mission is to bridge architecture, governance, and intelligence — transform
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ziednanaa&show_icons=true&theme=azure&title_color=0078D4&icon_color=0078D4&text_color=0E1419&bg_color=ffffff&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziednanaa&layout=compact&theme=azure&title_color=0078D4&text_color=0E1419&bg_color=ffffff&hide_border=true" height="160"/>
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=ziednanaa&show_icons=true&bg_color=0D1117&title_color=00AEEF&text_color=E6EDF3&icon_color=00AEEF&hide_border=true&border_radius=10" 
+    height="160" 
+    alt="GitHub Stats"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziednanaa&layout=compact&bg_color=0D1117&title_color=00AEEF&text_color=E6EDF3&hide_border=true&border_radius=10" 
+    height="160" 
+    alt="Top Languages"
+  />
 </p>
-
 ---
 
 ## 🌍 Connect with Me
