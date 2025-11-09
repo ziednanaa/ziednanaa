@@ -3,7 +3,7 @@
 </p>
 
 # 👋 Zied Nanaa
-**Senior Cloud & Data Architect | Microsoft Fabric | Data Governance | AI Solutions**
+**Senior Cloud & Data Architect | Data Science | Microsoft Fabric | Data Governance | AI Solutions**
 
 ---
 
@@ -12,6 +12,8 @@
 Ich bin Cloud- und Datenarchitekt mit Schwerpunkt auf **Microsoft Fabric**, **Data Governance** und **künstlicher Intelligenz (KI)**.  
 Mein Ziel ist es, skalierbare und nachhaltige Datenplattformen zu gestalten, die **Governance, Qualität und Automatisierung** vereinen.  
 Ich arbeite an Projekten, die Datenprodukte mit Mehrwert schaffen — technisch fundiert, sicher und KI-gestützt.
+
+[🔗 Google AI - Über mich](https://share.google/aimode/ZOwj9PpgNwJ5QHL5z)
 
 ---
 
@@ -23,6 +25,7 @@ and enabling **intelligent automation** through AI and Fabric orchestration.
 
 My mission is to bridge architecture, governance, and intelligence — transforming raw data into trusted insight.
 
+[🔗 Google AI - About me](https://share.google/aimode/ZOwj9PpgNwJ5QHL5z)
 ---
 
 ## 🧠 Technical Focus
