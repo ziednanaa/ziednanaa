@@ -66,7 +66,10 @@ My mission is to bridge architecture, governance, and intelligence — transform
 ## 🌍 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Zied%20Nanaa-0078D4?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziednanaa)  
+
 [![GitHub](https://img.shields.io/badge/GitHub-ziednanaa-181717?logo=github&logoColor=white)](https://github.com/ziednanaa)
+
+[![Website](https://img.shields.io/badge/Website-ziednanaa.github.io-blue)](https://ziednanaa.github.io)
 
 ---
 
