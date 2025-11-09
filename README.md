@@ -1,4 +1,4 @@
-<p align="center">
+⁵<p align="center">
   <img src="https://raw.githubusercontent.com/ziednanaa/ziednanaa/main/assets/azure-fabric-header.svg" alt="Microsoft Fabric & Azure Banner" width="100%" />
 </p>
 
@@ -72,7 +72,7 @@ My mission is to bridge architecture, governance, and intelligence — transform
 
 [![GitHub](https://img.shields.io/badge/GitHub-ziednanaa-181717?logo=github&logoColor=white)](https://github.com/ziednanaa)
 
-[![Website](https://img.shields.io/badge/Website-ziednanaa.github.io-blue)](https://ziednanaa.github.io)
+[![GitHub.io](https://img.shields.io/badge/Website-ziednanaa.github.io-blue)](https://ziednanaa.github.io)
 
 ---
 
