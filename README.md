@@ -1,4 +1,4 @@
-⁵<p align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/ziednanaa/ziednanaa/main/assets/azure-fabric-header.svg" alt="Microsoft Fabric & Azure Banner" width="100%" />
 </p>
 
@@ -15,17 +15,30 @@ Ich arbeite an Projekten, die Datenprodukte mit Mehrwert schaffen — technisch 
 
 [🔗 Google AI - Über mich](https://share.google/aimode/ZOwj9PpgNwJ5QHL5z)
 
+
 ---
 
 ## 🇬🇧 About Me
 
 I’m a Cloud & Data Architect specializing in **Microsoft Fabric**, **Data Governance**, and **AI-driven architectures**.  
-I focus on designing **scalable Lakehouse environments**, integrating **data lineage and governance**,  
-and enabling **intelligent automation** through AI and Fabric orchestration.
+
+# Strategic Technology Leader
+
+**20+ years IT Experience** in Data Analytics Platforms, Data Strategy, and Business Transformation.
+
+I turn data into **competitive advantage**.  
+Drawing on two decades across **manufacturing**, **retail**, **financial services**, and the **public sector**,  
+I have designed and scaled **modern Azure-centric data ecosystems**,  
+**BI platforms** (Power BI, Databricks, Snowflake)  
+that power decisions for thousands of users.
+
+My approach ensures **alignment with the Enterprise Architecture**  
+according to **regulatory and internal policies**.
 
 My mission is to bridge architecture, governance, and intelligence — transforming raw data into trusted insight.
 
 [🔗 Google AI - About me](https://share.google/aimode/ZOwj9PpgNwJ5QHL5z)
+
 ---
 
 ## 🧠 Technical Focus
@@ -36,7 +49,7 @@ My mission is to bridge architecture, governance, and intelligence — transform
 - **Data Governance:** Metadata, Quality Rules, Lineage, Fabric Data Activator, GDPR 
 - **DataVis / Power BI:** Advanced data modeling, DAX calculations, interactive report design, integration with Microsoft Fabric, Power BI Data Gateway** setup and management, dashboard automation, performance optimization, and business insights delivery.
 - **Automation:** PowerShell, REST API Integration, Deployment Frameworks  
-
+- **Open Source and Github Repos**
 ---
 
 ## 📂 Selected Projects
