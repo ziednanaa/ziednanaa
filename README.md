@@ -93,3 +93,11 @@ My mission is to bridge architecture, governance, and intelligence — transform
 > — **Zied Nanaa**
 
 ---
+<!-- 
+SEO: 
+Primary keywords – Microsoft Fabric, Azure Data Platform, Data Governance, AI Architect, Fabric Lakehouse, Power BI, Azure DevOps.
+Secondary keywords – Cloud Architecture, Data Engineering, Data Mesh, Medallion Architecture, Fabric Notebooks, CI/CD, Automation.
+Author: Zied Nanaa – Senior Cloud & Data Architect.
+Description: Expert in Microsoft Fabric, Azure, Data Governance, and AI-driven solutions for enterprise data platforms.
+GitHub Topics: microsoft-fabric, azure-data-platform, data-governance, ai-solutions, data-architecture, cloud-architect, power-bi, azure-devops.
+-->
