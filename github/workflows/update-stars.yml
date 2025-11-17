@@ -2,7 +2,7 @@ name: Update Starred Repos
 
 on:
   schedule:
-    - cron: "0 2 * * *"    # täglich um 02:00 UTC
+    - cron: "0 1 45 * *"    # täglich um 01:45 UTC
   workflow_dispatch:
 
 jobs:
