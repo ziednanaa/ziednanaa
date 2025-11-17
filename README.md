@@ -101,3 +101,9 @@ Author: Zied Nanaa – Senior Cloud & Data Architect.
 Description: Expert in Microsoft Fabric, Azure, Data Governance, and AI-driven solutions for enterprise data platforms.
 GitHub Topics: microsoft-fabric, azure-data-platform, data-governance, ai-solutions, data-architecture, cloud-architect, power-bi, azure-devops.
 -->
+
+
+## ⭐ Meine GitHub Stars
+
+<!-- STARRED-REPOS:START -->
+<!-- STARRED-REPOS:END -->
