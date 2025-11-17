@@ -1,8 +1,11 @@
 name: Copilot Metrics Collector
 
+permissions:
+  contents: write  # wichtig, sonst kein Push
+
 on:
   schedule:
-    - cron: "0 1 * * *"   # Täglich um 01:00 UTC
+    - cron: "0 1 * * *"   # täglich um 01:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -13,31 +16,51 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Create output folder
+      - name: Prepare folder
         run: mkdir -p copilot-metrics
 
       - name: Fetch GitHub Copilot Metrics
+        id: fetch
         env:
-          GITHUB_TOKEN: ${{ secrets.COPILOT_TOKEN }}
+          COPILOT_TOKEN: ${{ secrets.COPILOT_TOKEN }}
         run: |
           DATE=$(date +"%Y-%m-%d")
           OUTPUT="copilot-metrics/metrics-$DATE.json"
 
-          # Beispiel: User metrics (kein PAT nötig)
-          # API: GET https://api.github.com/user/copilot/metrics
+          echo "🔎 Fetching Copilot metrics for $DATE ..."
 
-          curl -s \
+          RESPONSE=$(curl -s -w "%{http_code}" \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
-            https://api.github.com/user/copilot/metrics \
-            > $OUTPUT
+            -H "Authorization: Bearer $COPILOT_TOKEN" \
+            https://api.github.com/user/copilot/metrics)
 
-          echo "Saved metrics to $OUTPUT"
+          BODY=${RESPONSE::-3}
+          STATUS=${RESPONSE: -3}
+
+          echo "$BODY" > "$OUTPUT"
+
+          if [ "$STATUS" != "200" ]; then
+            echo "❌ Error from API (HTTP $STATUS)"
+            echo "Response body:"
+            echo "$BODY"
+            echo "🛑 Aborting job."
+            exit 1
+          fi
+
+          echo "✅ Copilot metrics saved to $OUTPUT"
+          echo "file=$OUTPUT" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
           git add copilot-metrics/
-          git commit -m "Daily Copilot metrics $(date)" || echo "No changes to commit"
+
+          # nur committen, wenn Änderungen existieren
+          if git diff --cached --quiet; then
+            echo "ℹ️ No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Daily Copilot metrics $(date -u)"
           git push
