@@ -20,6 +20,7 @@ jobs:
 
       - name: Replace README section
         run: |
+          dos2unix README.md stars.md || true
           awk '
             BEGIN {in=0}
             /<!-- STARRED-REPOS:START -->/ {print;print "";system("cat stars.md");in=1;next}
