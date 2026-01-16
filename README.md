@@ -3,7 +3,7 @@
 </p>
 
 # 👋 Zied Nanaa
-**Senior Cloud & Data Architect | Data Science | Microsoft Fabric | Data Governance | AI Solutions**
+**Senior Cloud & Data Architect | Data Governance | Data Science | Microsoft Fabric | AI Solutions**
 
 ---
 
